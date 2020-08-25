@@ -15,7 +15,7 @@ class Projects extends Component{
                               <p>(<span className="name-color">2020</span>) Personal Website to showcase my projects, technical skills and experiences. The website is made with HTML, CSS, React, and React MDL. Hosted on Github Pages.</p>
                               <p style={{fontSize:'85%'}}><span className="name-color">Tags:</span> HTML, CSS, React, React-MDL</p>
                               <div className ="p-link">
-                                <a style={{ color: '#66ccff' }} href="https://github.com/anisin22?tab=repositories" rel="noopener noreferrer" target="_blank">
+                                <a style={{ color: '#66ccff' }} href="https://github.com/anisin22/portfolio-website" rel="noopener noreferrer" target="_blank">
                                     <Tooltip label="Github">
                                     <i className="fab fa-github" aria-hidden="true"/> 
                                     </Tooltip>
