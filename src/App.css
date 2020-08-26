@@ -8,7 +8,7 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    position: flex;
+    position: absolute;
 
 width: 100%;
 height: 100%;
@@ -20,9 +20,7 @@ text-align: center;
     background: #000000;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-position: flex;
-
-left: 0;
+position: absolute;
 width: 100%;
 height: 100%;
 text-align: center;
@@ -32,30 +30,87 @@ text-align: center;
 background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 position: relative;
-    
-    
 top: 10;
 left: 0;
 width: 100%;
 height: 100%;
 text-align: center;
 }
+.about-me hr, .content hr{
+    width: 20%;
+    margin: auto;
+    margin-top: 1%;
+    padding: 10px;
+    border-top: 5px dotted white;
+    
+}
+.club-img{
+    height: 150px; 
+    display: flex;
+    margin: auto;
+    margin-top: 1%;
+}
+.language-bar {
+    border-top: 5px dotted white;
+    width: 30%;
+    margin: auto;
+    margin-top: 1%;
+}
+.skills-list i{
+    font-size: 46px;
+    padding-right: 0.5rem;
+}
+.contact-body hr{
+    border-top: 5px dotted white;
+    width: 30%;
+    margin: auto;
+    margin-top: 1%;
+}
+.contact-list i{
+    font-size: 46px;
+    padding-right: 1rem;
+}
 @media screen and (max-width: 600px){
 .nav-bar{
         display: none;
     }
-    
+    .club-img{
+        height: 100px; 
+        
+        margin: auto;
+        margin-top: 1%;
+    }
+}
+@media screen and (max-width: 1000px){
+        .landing-grid{
+            height: auto;
+        }
+        .skills-list i, .contact-list i{
+            font-size: 36px;
+        }
+        .skill-word, .contact-word{
+            font-size: 19px;
+        }
+    }
+@media screen and (max-width: 1200px){
+    .about-me hr{
+        width: 60%;
+        }
+        .language-bar {
+            width: 85%;
+        }
+        .content hr{
+            width: 60%;
+        }
+        .contact-body hr{
+            width: 70%;
+        }
 }
 .avatar-img{
     height: 320px;
     padding-top: 5em;
 }
-.club-img{
-    height: 100px; 
-    display: flex;
-    margin: auto;
-    margin-top: 1%;
-}
+
 .h1-img{
     display: flex;
     margin-left: 2%;
@@ -102,15 +157,6 @@ text-align: center;
     margin-right: 3%;
     font-size: 110%;
 }
-
-.about-me hr, .content hr{
-    width: 20%;
-    margin: auto;
-    margin-top: 1%;
-    padding: 10px;
-    border-top: 5px dotted white;
-    
-}
 .skills h3{
     font-size: 56px;
     font-weight: bold;
@@ -153,33 +199,9 @@ text-align: center;
     height: 100%;
     justify-content: center;
 }
-
-
-
-.language-bar {
-    border-top: 5px dotted white;
-    width: 30%;
-    margin: auto;
-    margin-top: 1%;
-}
-.contact-body hr{
-    border-top: 5px dotted white;
-    width: 30%;
-    margin: auto;
-    margin-top: 1%;
-}
-.contact-list i{
-    font-size: 46px;
-    padding-right: 1rem;
-    
-}
 .contact-list{
     display: flex;
     justify-content: space-evenly;
-}
-.skills-list i{
-    font-size: 46px;
-    padding-right: 0.5rem;
 }
 .inline-lists{
     display: flex;

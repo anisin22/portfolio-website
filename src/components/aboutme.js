@@ -9,7 +9,7 @@ class About extends Component{
                  <Grid className="landing-grid">
                  <Cell col={12}>
                         <h2>About Me</h2>
-                        <hr></hr>
+                        <hr className='about-bar'></hr>
                         <p>Creative and detail-oriented undergraduate at the <span className="name-color">University of Toronto.</span>  
                             Possesses a <span className="name-color">strong work ethic</span> and is capable of <span className="name-color">effective collaboration.  
                             Good analytical skills, and highly proficient in Algorithm Development, Data Structures, and Programming Logic. </span>

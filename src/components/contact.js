@@ -8,8 +8,6 @@ class Contact extends Component{
                 
                     
                     <Cell col={12}>
-                        
-                        
                         <h2>Contact Me</h2>
                         <hr></hr>
                         <br/><br/>
@@ -20,18 +18,24 @@ class Contact extends Component{
 
                             <ListItem>
                             <a style={{ color: '#66ccff' }} href="mailto:singla.anish@yahoo.com">
-                            <ListItemContent style={{fontSize: '26px', fontFamily: 'monospace' , color: 'white'}}>
-                                    <i className="fa fa-envelope" aria-hidden="true"/>
-                                    singla.anish@yahoo.com
+                            <ListItemContent className="contact-word" style={{fontSize: '26px', fontFamily: 'monospace' , color: 'white'}}>
+                            <div className="contact-word">
+                            <i className="fa fa-envelope" aria-hidden="true"/>
+                            singla.anish@yahoo.com
+                            </div>
+                                    
                                 </ListItemContent>
                                 </a>
                             </ListItem>
 
                             <ListItem>
                             <a style={{ color: '#66ccff' }} href="mailto:anish.singla@mail.utoronto.ca">
-                            <ListItemContent style={{fontSize: '26px', fontFamily: 'monospace', color: 'white'}}>
-                                    <i className="fa fa-envelope" aria-hidden="true"/>
-                                    anish.singla@mail.utoronto.ca
+                            <ListItemContent className="contact-word" style={{fontSize: '26px', fontFamily: 'monospace', color: 'white'}}>
+                            <div className="contact-word">
+                            <i className="fa fa-envelope" aria-hidden="true"/>
+                            anish.singla@mail.utoronto.ca
+                            </div>
+                                    
                                 </ListItemContent>
                             </a>
                                 

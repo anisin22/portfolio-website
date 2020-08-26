@@ -19,7 +19,6 @@ class Landing extends Component{
                         <div className="banner-text">
                             <h1>Hi, my name is <span className="name-color">Anish Singla</span></h1>
                             <p>I am an asipring Computer Programmer and currently studying at the <span className="name-color">University of Toronto </span>in Canada.</p>
-                            <br/><br/>
                         </div>
                         </Cell>
                         
