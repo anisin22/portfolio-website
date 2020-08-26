@@ -11,7 +11,7 @@ class Contact extends Component{
                         <h2>Contact Me</h2>
                         <hr></hr>
                         <br/><br/>
-                        <h3 style={{color:"white", fontFamily: 'monospace'}}>Lets Talk!</h3>
+                        <h3 style={{color:"white", fontFamily: 'monospace'}}>Let's Talk!</h3>
                         <div className="contact-list">
                         <List>
                             
