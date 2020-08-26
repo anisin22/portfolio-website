@@ -3,27 +3,16 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content, Tooltip } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-const mql = window.matchMedia('(max-width: 600px)');
+
 
 function App() {
+
     
-    mql.addEventListener('change', (e) => {
-        const mobileView = e.matches;
-        if (mobileView) {
-            setNavInnerHTML(null)
-        } else {
-            
-        }
-    });
-    const setNavInnerHTML = (html) => {
-        const nav = document.getElementById('nav-bar');
-        nav.innerHTML = html;
-      };
   return (
     <div className="demo-big-content">
     <Layout fixedHeader>
         <Header className="header-color" title={<Link style={{textDecoration:'none', color: "white"}}to="/">Anish Singla</Link>}  scroll>
-            <div id='nav-bar'> 
+            <div className='nav-bar'> 
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/skills">Skills</Link>
