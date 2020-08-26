@@ -49,6 +49,7 @@ text-align: center;
     display: flex;
     margin: auto;
     margin-top: 1%;
+    align-self: center;
 }
 .language-bar {
     border-top: 5px dotted white;
@@ -85,10 +86,16 @@ text-align: center;
         .landing-grid{
             height: auto;
         }
-        .skills-list i, .contact-list i{
+        .skills-list i{
             font-size: 36px;
         }
-        .skill-word, .contact-word{
+        .contact-list i{
+            font-size: 30px;
+        }
+        .contact-word{
+            font-size: 16px;
+        }
+        .skill-word{
             font-size: 19px;
         }
     }
