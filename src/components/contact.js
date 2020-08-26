@@ -4,7 +4,7 @@ class Contact extends Component{
     render() {
         return(
             <div className="contact-body">
-                <Grid className="landing-grid"> 
+                <Grid className="landing-grid-two"> 
                 
                     
                     <Cell col={12}>
