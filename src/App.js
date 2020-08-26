@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <div className="demo-big-content">
-    <Layout>
+    <Layout fixedHeader>
         <Header className="header-color" title={<Link style={{textDecoration:'none', color: "white"}}to="/">Anish Singla</Link>}  scroll>
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
@@ -15,7 +15,6 @@ function App() {
                 <a href="https://drive.google.com/file/d/1_uFMLwiA2rryx0_wXciz8Jg_xoffLq9t/view">
                 Resume
                 </a>
-                
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>

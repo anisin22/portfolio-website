@@ -4,7 +4,7 @@ import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 class Skills extends Component{
     render() {
         return(
-            <div style={{width: '100%', margin: 'auto'}}>
+            <div>
                 <Grid className="landing-grid">
                     
                 <Cell col={12}>

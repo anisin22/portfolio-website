@@ -8,19 +8,21 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    position: fixed;
-top: 10;
+    position: absolute;
+    
 left: 0;
 width: 100%;
-height: 100%;
+height: auto;
+
 text-align: center;
+
 }
 .landing-grid-two{
     background: #000000;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-position: fixed;
-top: 5%;
+position: flex;
+
 left: 0;
 width: 100%;
 height: 100%;
@@ -45,7 +47,7 @@ text-align: center;
     padding-top: 5em;
 }
 .club-img{
-    height: 150px; 
+    height: 100px; 
     display: flex;
     margin: auto;
     margin-top: 1%;
@@ -146,25 +148,10 @@ text-align: center;
     width: 100%;
     height: 100%;
     justify-content: center;
-    padding-top: 2em;
 }
-.contact-grid{
-    
-    text-align: center;
-    justify-content: center;
-    width: 80%;
-    height: 550px;
-    
-    color: black;
-    margin-top: 20px;
-}
-.contact-grid h2 {
-    font-family: 'monotone', sans-serif;
-}
-.contact-grid p{
-    font-family: 'monotone', sans-serif;
-    font-weight: bold;
-}
+
+
+
 .language-bar {
     border-top: 5px dotted white;
     width: 30%;
@@ -179,7 +166,7 @@ text-align: center;
 }
 .contact-list i{
     font-size: 46px;
-    padding-right: 2rem;
+    padding-right: 1rem;
     
 }
 .contact-list{
@@ -188,7 +175,7 @@ text-align: center;
 }
 .skills-list i{
     font-size: 46px;
-    padding-right: 2rem;
+    padding-right: 0.5rem;
 }
 .inline-lists{
     display: flex;
@@ -228,7 +215,7 @@ text-align: center;
 .p-link{
     display: flex;
     justify-content: space-evenly;
-    width: 20%;
+    width: 30%;
     margin: 2%;
 }
 .p-link i {
