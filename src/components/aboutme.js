@@ -20,7 +20,7 @@ class About extends Component{
                             </a>
                             <br/>
                             <img 
-                        src="https://lh3.googleusercontent.com/Hh1F0L27456jvwffRyzT7u1nXY1KAPSvxFTePIEKlbl1Z4RavGt2ODIrKSvB-BzsFISwnswuYF4g4OP5cIUvc9c5ohZhOq7fwBpiyfnSOjm1nOOyYQUsq_RRM-KAqyrkxQwotrACsuCdZdwXHGkZappiZByQ_TBOH3744Pwji6CwMTY6EvZplHL8hBI1PZrbnZEMnzmgfcM2-nGamm8iaE3RZI72g8MxM9zUgfZ-5FJVN4HtQQ3Bk0tqcqrZlbOrIYm8JUPaIcEKgcBSVmalm_3PPoTz6vpLxwk6o7s53i86cfAJcLmukLgqAg8gsXaW8Yz3GApCJuGM-OACLYzK3_2PK8DuTCC6SVVbvOdrxPX-ihMwGghDCUcdr1Al9akzeMS5z_p1lS8u4hheHh-mBJ4KtMCTmsu_z3x7Jk-Jje0FH8tkkpIYW_4vjVvI0q2ENMyeZTZ9dk2rZE3w_0-l4_ld7Iskx-vJk3UKTwBEZVbgGbkLGHRvTXU4fypf-A4K7QNbLYsV02vaV-OfCnfCe8cRRvMmF4dcGNbnAGQOnIUI-KXGtVF0U2CZPrdu5MhRtk7UqsIW9ddLpZdQgZlmIK7jxIO_2zx9FicTF_0CUpDseQKHTFeIeXliw659ODRNlPiWHoGzJARy-1jEGoj3Y_jnYQ4gUO09DokOYS8M-9EEAUac6Lfb5sqE-zgW1MU=w1500-h321-no?authuser=0"
+                        src="https://i.imgur.com/8VF9GNw.png"
                         alt="avatar"
                         className="club-img"
                         
