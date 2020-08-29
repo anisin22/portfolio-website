@@ -16,7 +16,7 @@ function App() {
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/skills">Skills</Link>
-                <a href="https://drive.google.com/file/d/1_uFMLwiA2rryx0_wXciz8Jg_xoffLq9t/view">
+                <a href="/Anish_Singla_Resume.pdf">
                     Resume
                 </a>
                 <Link to="/projects">Projects</Link>
@@ -29,7 +29,7 @@ function App() {
             <Navigation>
                 <Link to="/aboutme" style={{fontSize:'20px'}}>About Me</Link>
                 <Link to="/skills" style={{fontSize:'20px'}}>Skills</Link>
-                <a href="https://drive.google.com/file/d/1_uFMLwiA2rryx0_wXciz8Jg_xoffLq9t/view" style={{fontSize:'20px'}}>
+                <a href="/Anish_Singla_Resume.pdf" style={{fontSize:'20px'}}>
                 Resume
                 </a>
                 <Link to="/projects" style={{fontSize:'20px'}}>Projects</Link>
