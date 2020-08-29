@@ -89,7 +89,7 @@ class Projects extends Component{
                                     </Tooltip>
                                     Github
                                 </a>
-                                <a style={{ color: '#66ccff' }} href="https://anisin22.github.io/Chess-AI/" rel="noopener noreferrer" target="_blank">
+                                <a style={{ color: '#66ccff' }} href="http://chess-ai.rf.gd/" rel="noopener noreferrer" target="_blank">
                                 <Tooltip label="Live Demo">
                                     <i className="fas fa-play" aria-hidden="true" color="white"/>
                                 </Tooltip>
