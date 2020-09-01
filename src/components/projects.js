@@ -78,6 +78,26 @@ class Projects extends Component{
                                 </a>
                                 
                             </div>
+
+                            <hr style={{ width: '85%', borderTop: '2px solid white'}}></hr>
+                              <h3 className="name-color">Realtime Online Chat Room</h3>
+                              <p>(<span className="name-color">2020</span>) Developed an online chat room that anyone can join and talk in, using Node.js and Express to handle server side operations and Socket.io to implement web sockets which send and receive data. Made simple front end with HTML and CSS, deployed via Heroku. </p>
+                              <p style={{fontSize:'85%'}}><span className="name-color">Tags:</span> Node.js, Express, Socket.io, HTML, CSS, Heroku</p>
+                              <div className ="p-link">
+                                <a style={{ color: '#66ccff' }} href="https://github.com/anisin22/online-chat-room" rel="noopener noreferrer" target="_blank">
+                                    <Tooltip label="Github">
+                                    <i className="fab fa-github" aria-hidden="true"/> 
+                                    </Tooltip>
+                                    Github
+                                </a>
+                                <a style={{ color: '#66ccff' }} href="https://onlinechatroom.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                                <Tooltip label="Live Demo">
+                                    <i className="fas fa-play" aria-hidden="true" color="white"/>
+                                </Tooltip>
+                                Live Demo
+                                </a>
+                            </div>
+
                               <hr style={{ width: '85%', borderTop: '2px solid white'}}></hr>
                               <h3 className="name-color">Chess Minimax AI</h3>
                               <p>(<span className="name-color">2020</span>) I made a chess AI, which has various levels of difficulty. It uses the Limited Depth Minimax with Alpha Beta Pruning Algorithm and I implemented it on a basic webpage using HTML, CSS, Chess.js, jQuery, and JavaScript.</p>

@@ -137,7 +137,14 @@ class Skills extends Component{
                                 </ListItemContent>
                             </ListItem>
 
-                            
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '26px', fontFamily: 'monospace', color:'white'}}>
+                                <div className="skill-word">
+                                    <i className="fas fa-cogs" aria-hidden="true"/>
+                                    Express
+                                    </div>
+                                </ListItemContent>
+                            </ListItem>
                             
                         </List>
                         </div>
