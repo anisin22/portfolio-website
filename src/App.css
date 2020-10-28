@@ -44,11 +44,23 @@ text-align: center;
     border-top: 5px dotted white;
     
 }
+.about-me h2, .skill-title, .contact-body h2, .content h2{
+    font-size: 56px;
+    font-weight: bold;
+    color:rgb(102,204,255);
+    font-family: monospace, sans-serif;
+    margin: auto;
+    text-align: center;
+}
 .club-img{
     height: 150px; 
     display: flex;
     margin: auto;
     margin-top: 1%;
+}
+.avatar-img{
+    height: 320px;
+    padding-top: 5em;
 }
 .language-bar {
     border-top: 5px dotted white;
@@ -66,25 +78,25 @@ text-align: center;
     margin: auto;
     margin-top: 1%;
 }
+.h2-img{
+    display: flex;
+    margin-left: 2%;
+    height: 200px;
+}
 .contact-list i{
     font-size: 46px;
     padding-right: 1rem;
 }
-@media screen and (max-width: 600px){
-.nav-bar{
-        display: none;
-    }
-    .club-img{
-        height: 100px; 
-        
-        margin: auto;
-        margin-top: 1%;
+@media screen and (max-width: 350px){
+    .avatar-img{
+        height: 250px;
     }
 }
-@media screen and (max-width: 1000px){
-        .landing-grid{
-            height: auto;
-        }
+
+@media screen and (max-width: 550px){
+    .club-img{
+        display: none;
+    }
         .skills-list i{
             font-size: 36px;
         }
@@ -97,7 +109,63 @@ text-align: center;
         .skill-word{
             font-size: 19px;
         }
+    
+}
+@media screen and (max-width: 370px){
+    .contact-list i{
+        font-size: 26px;
     }
+    .contact-word{
+        font-size: 14px;
+    }
+    .contact-body h2{
+        font-size: 46px;
+    }
+}
+@media screen and (max-width: 400px){
+    .skill-title{
+        font-size: 46px;
+    }
+    .skills-list i{
+        font-size: 16px;
+    }
+    .skill-word{
+        font-size: 12px;
+    }
+    .h2-img{
+        height: 150px;
+    }
+}
+@media screen and (max-width: 329px){
+    .skill-title{
+        font-size: 36px;
+    }
+    .h2-img{
+        height: 100px;
+    }
+    .contact-list i{
+        font-size: 23px;
+    }
+    .contact-word{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 600px){
+.nav-bar{
+        display: none;
+    }
+    .club-img{
+        height: 100px; 
+        position: relative;
+        
+        margin: auto;
+        margin-top: 1%;
+    }
+    .landing-grid{
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 1200px){
     .about-me hr{
         width: 60%;
@@ -112,21 +180,14 @@ text-align: center;
             width: 70%;
         }
 }
-.avatar-img{
-    height: 320px;
-    padding-top: 5em;
-}
+
 
 .h1-img{
     display: flex;
     margin-left: 2%;
     height: 100px;
 }
-.h2-img{
-    display: flex;
-    margin-left: 2%;
-    height: 200px;
-}
+
 .resume-button{
     display: flex;
     margin: auto;
@@ -138,14 +199,7 @@ text-align: center;
     color: white;
     font-family: monospace, sans-serif;
 }
-.about-me h2, .skill-title, .contact-body h2, .content h2{
-    font-size: 56px;
-    font-weight: bold;
-    color:rgb(102,204,255);
-    font-family: monospace, sans-serif;
-    margin: auto;
-    text-align: center;
-}
+
 .contact-body h2{
     margin-top: 2%;
     font-family: monospace, sans-serif;
