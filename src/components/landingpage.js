@@ -12,7 +12,7 @@ class Landing extends Component{
                     <Cell col={12}>
                         
                         <img
-                            src="https://i.imgur.com/YFwOIg1.png"
+                            src="https://cdn.discordapp.com/attachments/761668077309788180/845433121024376863/circle-cropped_2-min.png"
                             alt="avatar"
                             className="avatar-img"
                         />

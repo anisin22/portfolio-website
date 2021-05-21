@@ -44,7 +44,7 @@ class Skills extends Component{
                                 <ListItemContent  style={{fontSize: '26px', fontFamily: 'monospace', color:'white'}}>
                                 <div className="skill-word">
                                     <i className="fab fa-react" aria-hidden="true"/>
-                                    React/React-MDL
+                                    React/React Native
                                     </div>
                                 </ListItemContent>
                             </ListItem>
